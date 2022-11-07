@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The LuaLiftoff Project</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+        <style>
+            .feature-icon {
+                width: 4rem;
+                height: 4rem;
+                border-radius: .75rem;
+            }
+        </style>
+    </head>
+    <body class="d-flex flex-column min-vh-100">
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-bottom">
+                <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    <svg width="64" height="64" version="1.1" viewBox="0 0 84.853 84.853" xmlns="http://www.w3.org/2000/svg">
+                        <g transform="translate(-55.807 -68.309)">
+                            <g>
+                                <circle transform="rotate(-45)" cx="21.835" cy="132.76" r="10" fill="#000080"/>
+                                <path d="m55.807 68.309s5.2858 30.435 14.142 42.426c12.046 16.31 49.497 35.355 49.497 35.355l14.142-14.142s-19.046-37.452-35.355-49.497c-11.991-8.8563-42.426-14.142-42.426-14.142z" fill="#7f7f7f"/>
+                                <path d="m113.79 95.179c7.8947 10.997 15.447 23.176 21.213 35.355l5.6568-5.6568c-13.705-23.098-18.588-27.011-26.87-29.698zm-31.113 31.113c10.997 7.8947 23.176 15.447 35.355 21.213l-5.6569 5.6569c-23.098-13.705-27.011-18.588-29.698-26.87z" fill="#404040"/>
+                                <path d="m123.69 143.86 7.6726-7.6726 8.2206 15.893z" fill="#f1ff17"/>
+                            </g>
+                            <g fill-opacity=".5">
+                                <path d="m124.05 142.37 7.6726-7.6726 8.2206 15.893z" fill="#ff9b17"/>
+                                <path d="m122.28 144.68 7.6726-7.6726 8.2206 15.893z" fill="#ff6f17"/>
+                                <path d="m124.57 144.82 7.6726-7.6726 8.2206 15.893z" fill="#fcff17"/>
+                            </g>
+                            <circle transform="rotate(-45)" cx="-8.8403" cy="132.76" r="15" fill="#000080"/>
+                            <circle transform="rotate(-45)" cx="-1.2211" cy="132.63" r="5" fill="#fff"/>
+                        </g>
+                    </svg>
+                    <h1 class="display-3 fw-bold">LuaLiftoff</h1>
+                </a>
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3">
+                        <a class="text-muted" href="https://github.com/LuaLiftoff/LuaLiftoff">
+                            <i class="bi-github" style="font-size: 24px"></i>
+                        </a>
+                    </li>
+                </ul>
+            </header>
+            LuaLiftoff is a Lua interpreter currently in development. It includes a JIT compiler to run Lua scripts as fast as possible. Furthermore, it is written in Lua to allow Lua developers to contribute to the project.
+
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="feature col">
+                  <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <i class="bi bi-speedometer"></i>
+                  </div>
+                  <h3 class="fs-2">Speed</h3>
+                  <p>With the included JIT compiler the Lua code will be comipled to native code and run faster then ever before.</p>
+                  <a href="https://github.com/LuaLiftoff/LuaLiftoff" class="icon-link d-inline-flex align-items-center">
+                    See benchmarks
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+                </div>
+                <div class="feature col">
+                  <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <i class="bi bi-columns-gap"></i>
+                  </div>
+                  <h3 class="fs-2">Drop In</h3>
+                  <p>LuaLiftoff implements the Lua API allowing for an easy drop-in replacement of the Lua library.</p>
+                  <a href="https://github.com/LuaLiftoff/LuaLiftoff" class="icon-link d-inline-flex align-items-center">
+                    Get latest release
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+                </div>
+                <div class="feature col">
+                  <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <i class="bi bi-code-square"></i>
+                  </div>
+                  <h3 class="fs-2">Contribute</h3>
+                  <p>The project is fully written in Lua with the hope that all Lua developers can help and play with this project.</p>
+                  <a href="https://github.com/LuaLiftoff/LuaLiftoff" class="icon-link d-inline-flex align-items-center">
+                    Help us develop
+                    <i class="bi bi-chevron-right"></i>
+                  </a>
+                </div>
+              </div>
+        </div>
+        <div class="container mt-auto">
+            <footer class="border-top">
+                <p class="text-center text-muted">© 2022 The LuaLiftoff Project Authors</p>
+            </footer>
+        </div>
+    </body>
+</html>
